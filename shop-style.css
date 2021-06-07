@@ -1,0 +1,199 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-color: rgb(200, 173, 252);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;	
+}
+
+.center {
+    width: 600px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background:75% white;  /*this uses opacity of 75% for the background color, my note: this was the black square */
+	 text-align: center;
+	border: none;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border: none;
+	text-align: center;
+}
+
+h1 {
+	font-family: "brandon-grotesque", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: black;
+}
+
+h2 {
+	font-family: "brandon-grotesque", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: black;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: "cronos-pro-caption", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color:black;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #29274C;
+	font-family: "brandon-grotesque", sans-serif;
+}
+.logo{
+	color: rgb(226,226,226);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width: 45%;    /* this adjusts how spread out the links are since they are justified to spread out */
+}
+.nav-links li{
+	list-style: none;
+}
+
+.nav-links a{
+	color: rgb(226,226,226);
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: regular;
+	font-size: 14px;
+}
+.nav-links li a:hover {
+	color: rgb(118, 44, 255);   
+	transition: 0.2s ease-out;
+}
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+.footer-container{
+	background-color:blueviolet;
+	position:relative
+}
+.footer-heading{
+	position:fixed
+}
+
+.footer-container{
+	background-color: #29274C;
+	padding-bottom: 4rem;
+}
+
+.footer{
+	width: 80%;
+	height: 20vh;
+	background-color:#29274C;
+	color: rgb(226,226,226);
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.footer-heading {
+	display: flex;
+	flex-direction: column;
+	margin-right: 4rem;     /*width of purple footer bar*/
+	margin-top: 2rem;
+}
+
+.footer-heading h2 {
+	margin-bottom: 1.5rem;   /*space between titles and items */
+}
+.footer-heading a {
+	color: rgb(226,226,226);
+	text-decoration: none;
+	margin-bottom: .5rem;  /*space between items*/
+	
+}
+.footer-heading a:hover {
+	color: rgb(118, 44, 255);
+	transition: 0.2s ease-out;
+}
